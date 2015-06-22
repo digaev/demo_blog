@@ -7,7 +7,7 @@ System requirements
 -------------------
 
 * PHP 5.4+
-* SQlite3
+* SQLite3
 
 Installation
 ------------
