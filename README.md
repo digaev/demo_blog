@@ -3,6 +3,12 @@ Demo blog
 
 A simple blog based on CodeIgniter 3 PHP framework.
 
+System requirements
+-------------------
+
+* PHP 5.4+
+* SQlite3
+
 Installation
 ------------
 
