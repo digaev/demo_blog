@@ -59,7 +59,5 @@ $route['users/singin'] = 'users/signin';
 $route['users/signup'] = 'users/signup';
 $route['users/signout'] = 'users/signout';
 
-$route['contact'] = 'contact';
-
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
