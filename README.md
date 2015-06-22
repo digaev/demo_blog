@@ -9,6 +9,13 @@ System requirements
 * PHP 5.4+
 * SQLite3
 
+Features
+--------
+
+* Users registration
+* Registered users can post artices
+* Registered users can "Like" articles
+
 Installation
 ------------
 
