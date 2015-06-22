@@ -97,12 +97,10 @@ class Vote_model extends CI_Model
      */
     public function user()
     {
-        if (isset($this->_user_id)) {
-            if (is_null($this->_user) || ($this->_user->id() != $this->_user_id)) {
-                $this->_user = $this->userfactory->find_by_id($this->_user_id);
-                if ($this->_user === false) {
-                    $this->_user = null;
-                }
+        if (is_null($this->_user) || ($this->_user->id() != $this->_user_id)) {
+            $this->_user = $this->userfactory->find_by_id($this->_user_id);
+            if ($this->_user === false) {
+                $this->_user = null;
             }
         }
         return $this->_user;
@@ -110,12 +108,10 @@ class Vote_model extends CI_Model
 
     public function blogpost()
     {
-        if (isset($this->_blogpost_id)) {
-            if (is_null($this->_blogpost) || ($this->_blogpost->id() != $this->_blogpost_id)) {
-                $this->_blogpost = $this->userfactory->find_by_id($this->_blogpost_id);
-                if ($this->_blogpost === false) {
-                    $this->_blogpost = null;
-                }
+        if (is_null($this->_blogpost) || ($this->_blogpost->id() != $this->_blogpost_id)) {
+            $this->_blogpost = $this->userfactory->find_by_id($this->_blogpost_id);
+            if ($this->_blogpost === false) {
+                $this->_blogpost = null;
             }
         }
         return $this->_blogpost;

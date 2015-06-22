@@ -96,12 +96,10 @@ class Blogpost_model extends CI_Model
      */
     public function user()
     {
-        if (isset($this->_user_id)) {
-            if (is_null($this->_user) || ($this->_user->id() != $this->_user_id)) {
-                $this->_user = $this->userfactory->find_by_id($this->_user_id);
-                if ($this->_user === false) {
-                    $this->_user = null;
-                }
+        if (is_null($this->_user) || ($this->_user->id() != $this->_user_id)) {
+            $this->_user = $this->userfactory->find_by_id($this->_user_id);
+            if ($this->_user === false) {
+                $this->_user = null;
             }
         }
         return $this->_user;
