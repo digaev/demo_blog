@@ -1,7 +1,7 @@
-Demo blog
+Demo Blog
 =========
 
-A simple blog based on CodeIgniter 3 PHP framework.
+A simple demo blog based on CodeIgniter 3 PHP framework.
 
 System requirements
 -------------------
@@ -13,7 +13,7 @@ Features
 --------
 
 * Users registration
-* Registered users can post artices
+* Registered users can post articles
 * Registered users can "Like" articles
 
 Installation
