@@ -1,0 +1,22 @@
+body {
+    margin-top: 70px;
+}
+
+.form-group.required label:after {
+    content: '*';
+    color: red;
+    margin-left: .2em;
+}
+
+.blogposts .blogpost {
+    border-bottom: 1px dashed #eee;
+}
+
+.blogpost {
+    padding-bottom: 1em;
+}
+
+
+.blogpost .text {
+    padding-bottom: 1em;
+}
